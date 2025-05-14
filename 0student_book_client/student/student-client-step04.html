@@ -60,7 +60,7 @@
 
     <div class="table-container">
       <h2>학생 목록</h2>
-      <table>
+      <table id="studentTable">
         <thead>
           <tr>
             <th>이름</th>
@@ -72,13 +72,27 @@
             <th>액션</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody id="studentTableBody"></tbody>
       </table>
     </div>
 
     <script>
       // 전역변수 선언
       const API_BASE_URL = "http://localhost:8080";
+      // DOM 엘리먼트 가져오기
+      const studentForm = document.getElementById("studentForm");
+      const studentTableBody = document.getElementById("studentTableBody");
+
+      // Form Load 이벤트 처리하기
+      document.addEventListener("DOMContentLoaded", function () {
+        //익명 함수
+        LoadStudent();
+      }); //화면이 뜨자마자 처리해줌
+
+      // 학생 목록을 Load하는 함수
+      function LoadStudent() {
+        console.log("Loading Student ... ");
+      }
     </script>
   </body>
 </html>
