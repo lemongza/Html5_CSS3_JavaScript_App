@@ -23,3 +23,4 @@
 * step1 : html page 작성
 * step2 : form 내부의 input과 table에 CSS 추가
 * step3 : form.css 파일로 분리하기, form 내부의 input에 form-group, form-grid css 추가
+* step4 : javascript 코드 작성하기 시작, Form Load Event 핸들링 하기, Form Submit 
