@@ -31,3 +31,6 @@
     - Form Load Event 핸들링 하기
     - Form Submit Event 핸들링 하기
     - Form Data 검증하기
+* step5 :
+    - javascript code를 form.js 파일로 분리하기 
+    - 입력한 데이타를 검증하는 validate() 함수 구현하기
