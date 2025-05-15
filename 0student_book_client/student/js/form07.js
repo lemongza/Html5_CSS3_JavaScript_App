@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 // 전역변수 선언
 const API_BASE_URL = "http://localhost:8080";
 // DOM 엘리먼트 가져오기
