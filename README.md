@@ -42,3 +42,8 @@
     - post api/students 서버와 통신하는 createStudent() 함수 구현
 * step8 :
     - DELETE /api/students/1 서버와 통신하는 deleteStudent() 함수 구현
+* step9 :
+    - student 수정하기 전에 데이터 조회 먼저하기
+    - GET api/students/1 student 조회하는 editStudent() 함수 구현
+    - 수정 모드일때 취소 버튼 보여주고, resetForm() 함수 구현하고 연결하기 
+    - PUT api/students/1 student 수정하는 updateStudent() 함수 구현
